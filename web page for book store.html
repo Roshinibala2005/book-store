@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        section {
+            margin: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .book {
+            width: 250px;
+            margin: 15px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        form {
+            text-align: center;
+            margin: 20px;
+        }
+
+        input {
+            padding: 10px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Featured Books</h1>
+    </header>
+
+    <section>
+        <div class="book">
+            <img src="book1.jpg" alt="Book Cover 1">
+            <h2>Title 1</h2>
+            <p>Author 1</p>
+        </div>
+
+        <div class="book">
+            <img src="book2.jpg" alt="Book Cover 2">
+            <h2>Title 2</h2>
+            <p>Author 2</p>
+        </div>
+
+        <div class="book">
+            <img src="book3.jpg" alt="Book Cover 3">
+            <h2>Title 3</h2>
+            <p>Author 3</p>
+        </div>
+    </section>
+
+    <form>
+        <label for="email">Subscribe to our Newsletter:</label>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <button type="submit">Subscribe</button>
+    </form>
+
+</body>
+
+</html>
